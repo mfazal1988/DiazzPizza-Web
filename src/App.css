@@ -1,0 +1,61 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+
+/* Other CSS files */
+@import url('./css/open-iconic-bootstrap.min.css');
+@import url('./css/animate.css');
+@import url('./css/owl.carousel.min.css');
+@import url('./css/owl.theme.default.min.css');
+@import url('./css/magnific-popup.css');
+@import url('./css/aos.css');
+@import url('./css/ionicons.min.css');
+@import url('./css/bootstrap-datepicker.css');
+@import url('./css/jquery.timepicker.css');
+@import url('./css/flaticon.css');
+@import url('./css/icomoon.css');
+@import url('./css/style.css');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiTextField-root{
+  background-color: #fff;
+}
